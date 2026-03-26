@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Dr. Jincheng Wu - Assistant Research Fellow | Chemical Engineering</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.55;
+            color: #1e2a3e;
+            background-color: #eef2f5;
+            padding-bottom: 70px;
+        }
+
+        .container {
+            max-width: 1100px;
+            width: 90%;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            border-radius: 0 0 12px 12px;
+            overflow: hidden;
+            padding: 30px 35px;
+        }
+
+        header {
+            background: #0f2b3d;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom: 4px solid #3b9b9b;
+        }
+
+        header h1 {
+            font-size: 2.6rem;
+            letter-spacing: -0.5px;
+            margin-bottom: 0.3rem;
+            font-weight: 600;
+        }
+
+        header p {
+            font-size: 1.15rem;
+            opacity: 0.9;
+            font-weight: 400;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background: #1e3a4a;
+            gap: 0.2rem;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: #f0f9ff;
+            padding: 0.6rem 1.2rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+            transition: 0.2s;
+            border-radius: 30px;
+        }
+
+        nav a:hover {
+            background: #2c5a6e;
+            color: white;
+        }
+
+        section {
+            margin: 2rem 0 2rem 0;
+            scroll-margin-top: 20px;
+        }
+
+        h2 {
+            font-size: 1.7rem;
+            border-left: 5px solid #3b9b9b;
+            padding-left: 18px;
+            margin-bottom: 1.2rem;
+            color: #0f2b3d;
+            font-weight: 600;
+        }
+
+        .card-item {
+            margin-bottom: 1.4rem;
+            padding-left: 10px;
+            border-left: 1px solid #e0e7ed;
+        }
+
+        .job-title, .pub-title {
+            font-weight: 700;
+            color: #1e5f6e;
+        }
+
+        .date {
+            color: #5a6874;
+            font-size: 0.85rem;
+            margin-left: 12px;
+            font-weight: normal;
+        }
+
+        .inline-badge {
+            background: #eef2fa;
+            padding: 2px 8px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: #2c5a6e;
+        }
+
+        .pub-list {
+            list-style-type: none;
+            margin-top: 0.5rem;
+        }
+
+        .pub-list li {
+            margin-bottom: 1.1rem;
+            line-height: 1.45;
+        }
+
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+
+        .skills-cat {
+            background: #f8fafc;
+            padding: 0.8rem 1.2rem;
+            border-radius: 16px;
+            flex: 1 1 200px;
+            border: 1px solid #e2edf2;
+        }
+
+        .skills-cat strong {
+            color: #1e5f6e;
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.2rem;
+            background: #0f2b3d;
+            color: #cbd5e1;
+            font-size: 0.85rem;
+            width: 100%;
+            margin-top: 2rem;
+        }
+
+        a {
+            color: #2b7a7a;
+            text-decoration: none;
+            border-bottom: 1px dotted #b9d3d3;
+        }
+
+        a:hover {
+            color: #0f4c5c;
+            border-bottom: 1px solid;
+        }
+
+        .contact-flex {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.2rem;
+            background: #f5f9fe;
+            padding: 1.2rem 1.5rem;
+            border-radius: 20px;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-item {
+            flex: 1;
+            min-width: 180px;
+        }
+
+        @media (max-width: 700px) {
+            .container {
+                padding: 20px 18px;
+                width: 95%;
+            }
+            header h1 {
+                font-size: 2rem;
+            }
+            h2 {
+                font-size: 1.4rem;
+            }
+            nav a {
+                padding: 0.4rem 0.9rem;
+                font-size: 0.7rem;
+            }
+        }
+
+        hr {
+            margin: 1rem 0;
+            border: 0;
+            height: 1px;
+            background: linear-gradient(to right, #cbdde6, transparent);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Jincheng Wu (吴金成)</h1>
+    <p>Assistant Research Fellow | Chemical Engineering · Xinjiang Technical Institute of Physics and Chemistry, CAS<br>
+    Physicochemical separation · Microalgae harvesting · Process simulation (Aspen) · Water-energy nexus</p>
+</header>
+
+<nav>
+    <a href="#contact">Contact</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#publications">Publications</a>
+    <a href="#conferences">Conferences</a>
+    <a href="#awards">Awards & Funding</a>
+    <a href="#skills">Skills</a>
+    <a href="#memberships">Memberships</a>
+    <a href="#service">Service</a>
+</nav>
+
+<div class="container">
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <div class="contact-flex">
+            <div class="contact-item">📞 <strong>Mobile:</strong> <a href="tel:+8617360029747">+86 17360029747</a> (CN) / <a href="tel:+447543347918">+44 7543347918</a></div>
+            <div class="contact-item">✉️ <strong>Email:</strong> <a href="mailto:wujc@ms.xjb.ac.cn">wujc@ms.xjb.ac.cn</a> | <a href="mailto:jincheng.wu@qmul.ac.uk">jincheng.wu@qmul.ac.uk</a></div>
+            <div class="contact-item">🏢 <strong>Address:</strong> Xinjiang Technical Institute of Physics and Chemistry, CAS, 40-1 Beijing South Road, Urumqi, 830011, China</div>
+            <div class="contact-item">🌐 <strong>Website:</strong> <a href="https://ex19452.github.io/Personal-Website/" target="_blank">ex19452.github.io/Personal-Website</a></div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="card-item">
+            <span class="job-title">PhD in Chemical Engineering</span> <span class="date">Oct 2020 – Oct 2024</span><br>
+            Queen Mary University of London, UK<br>
+            Thesis: Physicochemical harvesting technology in microalgae: filtration, fouling, and sediment characterization<br>
+            Supervisor: Prof. Edo Boek
+        </div>
+        <div class="card-item">
+            <span class="job-title">Associate Fellowship (AFHEA)</span> <span class="date">Feb 2021 – Jul 2022</span><br>
+            Advance HE, UK | Curriculum design, inclusive teaching, and feedback strategies.
+        </div>
+        <div class="card-item">
+            <span class="job-title">MSc in Sustainable Energy Systems (Distinction)</span> <span class="date">Sep 2019 – Sep 2020</span><br>
+            Queen Mary University of London, UK
+        </div>
+        <div class="card-item">
+            <span class="job-title">BEng in Energy and Power Engineering</span> <span class="date">Sep 2015 – Jun 2019</span><br>
+            Sichuan University, Chengdu, China
+        </div>
+    </section>
+
+    <!-- Professional Experience -->
+    <section id="experience">
+        <h2>Research & Professional Experience</h2>
+        
+        <div class="card-item">
+            <span class="job-title">Assistant Research Fellow (特聘研究助理)</span> <span class="date">Aug 2025 – Present</span><br>
+            Xinjiang Technical Institute of Physics and Chemistry, Chinese Academy of Sciences, China<br>
+            • Lead process simulation for electrocoagulation & electrocatalysis water treatment (Aspen Plus, COMSOL).<br>
+            • Supervise three postgraduate research students; contribute to national and provincial grant applications.<br>
+            • Collaborate on membrane distillation and solar-thermal desalination projects.
+        </div>
+
+        <div class="card-item">
+            <span class="job-title">Postdoctoral Research Assistant</span> <span class="date">Aug 2024 – Jul 2025</span><br>
+            Queen Mary University of London, UK (Supervisors: Dr. Edo Boek, Prof. Stoyan Smoukov)<br>
+            • Core member of UK Space Agency–funded lunar water purification project: developed cryogenic distillation model in Aspen Plus, mass & energy optimization.<br>
+            • Presented technical roadshows at Farnborough Airshow, Airbus UK, and secured follow-up sponsorship (£50k Phase‑2 award).
+        </div>
+
+        <div class="card-item">
+            <span class="job-title">PhD Demonstrator / Teaching Assistant</span> <span class="date">Feb 2021 – Jul 2024</span><br>
+            School of Engineering and Materials Science, Queen Mary University of London<br>
+            • Delivered tutorials in Separation Processes, Cardiovascular Fluid Mechanics, and Fuels & Energy.<br>
+            • Supervised final-year undergraduate projects and laboratory sessions; developed coursework materials.
+        </div>
+
+        <div class="card-item">
+            <span class="job-title">Student Ambassador & STEM Outreach Lead</span> <span class="date">Nov 2022 – Oct 2024</span><br>
+            Queen Mary University of London & "I'm a Scientist" platform<br>
+            • Delivered 20+ engineering engagement lectures for high-school students, promoting STEM careers.
+        </div>
+
+        <div class="card-item">
+            <span class="job-title">Engineering Intern (Thermal & Hydro Design)</span> <span class="date">Jun 2019 – Sep 2019</span><br>
+            Chengdu Construction Fourth Engineering Co., Ltd. | AutoCAD facade & MEP coordination.
+        </div>
+    </section>
+
+    <!-- Publications (Peer-reviewed & under review) -->
+    <section id="publications">
+        <h2>Selected Publications</h2>
+        <ul class="pub-list">
+            <li><strong>J. Wu</strong>, N. Cagney, G.H. Meeten, T.G.J. Jones, E.S. Boek*. "Compressibility and permeability of flocculated microalgae sediment in filtration-permeation." <em>Journal of Water Process Engineering</em>, 64, 2025, 106812. <a href="https://doi.org/10.1016/j.jwpe.2025.106812" target="_blank">DOI: 10.1016/j.jwpe.2025.106812</a> (Q1, IF 6.3).</li>
+            
+            <li><strong>J. Wu</strong>, G.H. Meeten, T.G.J. Jones, N. Cagney, E.S. Boek*. "Membrane fouling during the harvesting of microalgae using static microfiltration." <em>Separation and Purification Technology</em>, 353, 2024, 127737. <a href="https://doi.org/10.1016/j.seppur.2024.127737" target="_blank">DOI: 10.1016/j.seppur.2024.127737</a> (Q1, IF 9).</li>
+            
+            <li><strong>J. Wu</strong>, G.H. Meeten, T.G.J. Jones, N. Cagney, E.S. Boek*. "Hindered sedimentation and rheological behavior of concentrated microalgal suspensions: experimental and modeling." <em>Separation and Purification Technology</em>, 2025 (in press, available online).</li>
+            
+            <li>C. Zhou, Y. He, <strong>J. Wu*</strong>, A. Kadier*, et al. "Enhanced brackish water desalination performance of 3D invasive plant wood-based evaporator via coupled photo-thermal and Joule-heating effect." <em>Desalination</em>, 598, 2026, 118453. <a href="https://doi.org/10.1016/j.desal.2025.118453" target="_blank">DOI: 10.1016/j.desal.2025.118453</a> (Q1, IF 11).</li>
+            
+            <li>Y. Fan, <strong>J. Wu</strong>, A. Kadier*, et al. "Recent progress in polyvinyl alcohol-based pervaporation membranes for water desalination: an up-to-date review." <em>Separation and Purification Technology</em>, 2025 (accepted).</li>
+            
+            <li><strong>J. Wu</strong>, A.F. Jimenez, S. Smoukov, E. Boek*, et al. "Process simulation and optimization of vacuum sublimation system for lunar water recovery." <em>Applied Thermal Engineering</em>, under review (Dec 2025).</li>
+            
+            <li>Y. Han*, P. Hellier, <strong>J. Wu</strong>, N. Ladommatos. "In-cylinder sampling analysis of soot precursors during bio-derived lactone combustion in a single-cylinder diesel engine." <em>SAE Technical Paper</em>, 2024-01-5072, 2024.</li>
+            
+            <li>R. Abuduaini, Z. Chen, Y. He, G. Achagri, <strong>J. Wu</strong>, P. Ma, A. Kadier*, et al. "Enhanced pollutant removal from real petrochemical wastewater by the combination of solar-powered electrocoagulation and plant-based coagulants." <em>Cleaner Water</em>, 2026 (in press).</li>
+        </ul>
+        <p class="inline-badge" style="margin-top: 8px; display: inline-block;">† Corresponding author * Principal supervisor</p>
+    </section>
+
+    <!-- Conference Presentations & Talks -->
+    <section id="conferences">
+        <h2>Conference & Invited Presentations</h2>
+        <div class="card-item">
+            • <strong>16th International InterPore Meeting</strong> (Qingdao, China, May 2024) – Oral: "Membrane fouling and filtercake formation during microalgae filtration".
+        </div>
+        <div class="card-item">
+            • <strong>European Aerosol Conference</strong> (Tampere, Finland, Aug 2024) – Poster: Dual-fuel combustion emissions from compression ignition engine.
+        </div>
+        <div class="card-item">
+            • <strong>Farnborough International Airshow</strong> (UK, July 2024) – Technology pitch: lunar water recovery process (UK Space Agency team).
+        </div>
+        <div class="card-item">
+            • <strong>71st British Phycological Society Annual Meeting</strong> (Newcastle, UK, Jan 2023) – Oral: Membrane filtration for <em>Nannochloropsis</em> harvesting.
+        </div>
+        <div class="card-item">
+            • <strong>6th Russell Binions Memorial PhD Symposium</strong> (London, Apr 2023) – Talk: Filtration mechanisms in microalgae dewatering.
+        </div>
+        <div class="card-item">
+            • <strong>University of Leeds Food Science Lab</strong> (Nov 2022) – Ultrasonic characterisation of colloidal suspensions (collaboration with Prof. Megan Povey).
+        </div>
+        <div class="card-item">
+            • <strong>University of Enna Kore, Italy</strong> (Mar 2022) – Rheology of castor oil under high-temperature conversion (visiting research).
+        </div>
+    </section>
+
+    <!-- Awards, Grants & Honours -->
+    <section id="awards">
+        <h2>Awards & Research Funding</h2>
+        <div class="card-item">
+            🏆 <strong>Aqualunar Challenge Phase‑2 Follow-on Fund</strong> (Mar 2025) – £50,000 as core team member, UK Space Agency / Challenge Works.
+        </div>
+        <div class="card-item">
+            🏆 <strong>Aqualunar Challenge Seed Fund</strong> (Jul 2024) – £30,000 (co-applicant, lunar water purification system).
+        </div>
+        <div class="card-item">
+            🏆 <strong>Queen Mary Postgraduate Research Fund</strong> (Mar 2024) – £1,500 | <strong>Department Travel Grant</strong> (Aug 2024) – £800.
+        </div>
+        <div class="card-item">
+            🏆 <strong>British Phycological Society Student Bursary</strong> (Jan 2023) – £500 for conference attendance.
+        </div>
+        <div class="card-item">
+            🏆 <strong>16th “Chunhui Cup” Overseas Innovation & Entrepreneurship Competition</strong> (Dec 2021) – Excellence Award (top 10%).
+        </div>
+        <div class="card-item">
+            🏆 <strong>CSC / QMUL Joint PhD Scholarship</strong> (Jul 2020) – Full tuition & stipend (£64,800).
+        </div>
+        <div class="card-item">
+            🏆 <strong>Sichuan University Outstanding Graduate</strong> (2019) & Merit Scholarships (1st, 2nd class, 2015–2018).
+        </div>
+    </section>
+
+    <!-- Technical Skills & Instruments -->
+    <section id="skills">
+        <h2>Skills & Instrumentation</h2>
+        <div class="skills-grid">
+            <div class="skills-cat"><strong>⚙️ Process & Simulation</strong> Aspen Plus (V14), Abaqus, COMSOL, MATLAB, Maple, ImageJ, Origin, AutoCAD (Certified), SolidWorks, ChemDraw.</div>
+            <div class="skills-cat"><strong>🔬 Analytical Instruments</strong> SEM, TGA, UV-VIS, GPC, GC-FID, Zetasizer, Rheometer (TA), Bioreactor, Fluidized Bed, Zeiss Microscope.</div>
+            <div class="skills-cat"><strong>🌊 Water / Separation Tech</strong> Microfiltration/ultrafiltration, flocculation, electrocoagulation, membrane distillation, supercritical extraction.</div>
+            <div class="skills-cat"><strong>📚 Languages</strong> English (fluent, IELTS 7.0), Chinese (native), Spanish (basic).</div>
+        </div>
+        <p><span class="inline-badge">Autodesk Certified Professional – AutoCAD (2016)</span> <span class="inline-badge">Microsoft Office Specialist (MOS)</span></p>
+    </section>
+
+    <!-- Professional Memberships -->
+    <section id="memberships">
+        <h2>Professional Memberships</h2>
+        <div class="card-item">
+            • <strong>Institute of Physics (IOP)</strong> – Member (Aug 2024 – present)<br>
+            • <strong>International Water Association (IWA)</strong> – Member (Jun 2024 – present)<br>
+            • <strong>International Society for Porous Media (InterPore)</strong> – Student Member (2024–2025)<br>
+            • <strong>Chartered Institution of Water and Environmental Management (CIWEM)</strong> – Member (Jan 2023 – present)<br>
+            • <strong>British Phycological Society (BPS)</strong> – Student Member (Jun 2022 – present)
+        </div>
+    </section>
+
+    <!-- Academic & Community Service -->
+    <section id="service">
+        <h2>Service & Leadership</h2>
+        <div class="card-item">
+            • <strong>STEM Ambassador</strong> – “I'm a Scientist” / STEM Learning UK (2023–present): online career sessions with UK students.<br>
+            • <strong>CSSA QMUL Vice President & Media Officer</strong> (2020–2023): managed WeChat public platform (15k+ followers), organised cultural events.<br>
+            • <strong>Class President</strong> – Sichuan University, Energy and Power Engineering (2017–2019).<br>
+            • <strong>Student Assistant</strong> – National Student Loan Centre, Sichuan University (2017–2019).<br>
+            • Peer reviewer for <em>Separation and Purification Technology</em>, <em>Journal of Water Process Engineering</em>.
+        </div>
+    </section>
+
+    <hr>
+    <p style="font-size: 0.85rem; color: #2c5a6e; text-align: center;">📄 Full publication list and preprints available upon request. Updated March 2026.</p>
+</div>
+
+<footer>
+    <p>© 2026 Dr. Jincheng Wu | Last updated: March 2026 | Hosted on GitHub Pages</p>
+</footer>
+
+</body>
+</html>
